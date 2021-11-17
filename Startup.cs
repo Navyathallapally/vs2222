@@ -33,6 +33,7 @@ namespace vs2222
                 endpoints.MapGet("/", async context =>
                 {
                     await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello navyapavani");
                 });
             });
         }
